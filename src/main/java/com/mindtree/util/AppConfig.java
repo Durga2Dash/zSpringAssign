@@ -16,10 +16,10 @@ public class AppConfig {
 	@Autowired
 	Environment environment;
 	
-	private final String url = "jdbc:mysql://localhost:3306/expertEmployee";
+	private final String url = "jdbc:mysql://172.17.0.3:3306/expertEmployee";
 	private final String USER = "root";
 	private final String DRIVER = "com.mysql.jdbc.Driver";
-	private final String PASSWORD = "Welcome123";
+	private final String PASSWORD = "password";
 	
 	@Bean
 	DataSource dataSource()
